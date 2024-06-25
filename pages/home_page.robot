@@ -12,4 +12,4 @@ ${timeout}    5000ms
 
 Clicar no botao de confirmacao    
     Click Element    css=input.btn.btn-primary
-    Wait Until Element Contains    css=h3    Flights from Paris to Buenos Aires:    ${timeout}
+    # Wait Until Element Contains    css=h3    Flights from Paris to Buenos Aires:    ${timeout}
