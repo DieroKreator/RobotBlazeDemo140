@@ -2,7 +2,7 @@
 Library    SeleniumLibrary
 
 *** Variables ***
-${titulo_compra}    css=h2
+${titulo_compra_locator}    css=h2
 # ${timeout}    5000ms
 
 *** Keywords ***

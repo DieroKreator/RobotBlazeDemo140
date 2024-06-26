@@ -2,7 +2,7 @@
 Library    SeleniumLibrary
 
 *** Variables ***
-${titulo_reserva}    css=h3
+${titulo_reserva_locator}    css=h3
 
 *** Keywords ***
 Clicar no botao de selecionar um voo
