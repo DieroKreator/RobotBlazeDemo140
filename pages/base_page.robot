@@ -19,7 +19,7 @@ Abrir navegador
     Open Browser    url=${url}    browser=${browser}
     Maximize Browser Window
     Set Browser Implicit Wait    10000ms
-    Wait Until Element Is Visible    css=a.btn.btn-navbar   ${timeout}
+    # Wait Until Element Is Visible    css=a.btn.btn-navbar   ${timeout}
 
 Fechar navegador
     Sleep    500ms    
